@@ -16,19 +16,19 @@
  * limitations under the License.
  */
 
-package co.aospa.doze;
+package co.pixel.doze;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import co.aospa.doze.DozeUtils;
+import co.pixel.doze.DozeUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
     private static final boolean DEBUG = false;
-    private static final String TAG = "ParanoidDoze";
+    private static final String TAG = "PixelDoze";
 
     @Override
     public void onReceive(final Context context, Intent intent) {

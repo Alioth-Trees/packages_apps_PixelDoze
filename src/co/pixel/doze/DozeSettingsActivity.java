@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package co.aospa.doze;
+package co.pixel.doze;
 
 import android.os.Bundle;
 

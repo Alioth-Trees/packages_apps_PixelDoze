@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package co.aospa.doze;
+package co.pixel.doze;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -39,7 +39,7 @@ import androidx.preference.SwitchPreference;
 import com.android.settingslib.widget.MainSwitchPreference;
 import com.android.settingslib.widget.OnMainSwitchChangeListener;
 
-import co.aospa.doze.R;
+import co.pixel.doze.R;
 
 public class DozeSettingsFragment extends PreferenceFragment implements OnPreferenceChangeListener,
         OnMainSwitchChangeListener {
